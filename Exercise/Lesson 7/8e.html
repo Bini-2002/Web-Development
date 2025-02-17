@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>request-a-ride</title>
+    
+    <style>
+
+      .title-page
+      {
+        color: black;
+        font-size: 25px;
+      }
+      .starting-bar,.destination-bar
+      {
+        display: block;
+        background-color: rgb(223, 223, 223);
+        width: 350px;
+        height: 35px;
+        border: none;
+      }
+      .starting-bar
+      {
+        margin-bottom: 10px;
+      }
+      .destination-bar
+      {
+        margin-bottom: 30px;
+      }
+
+      .Request , .Scheduler 
+      {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        text-align: center;
+        border: none;
+
+      }
+
+      .Scheduler
+      {
+        background-color: rgb(223, 223, 223);
+        color : black;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+
+      .Request
+      {
+        background-color: black;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="title-page">
+      Request a ride now
+    </p>
+
+    <input class="starting-bar" type="text" placeholder="Enter pickup location">
+    <input class="destination-bar" type="text" placeholder="Enter destination">
+
+    <button class="Request">
+      Request Now
+    </button>
+
+    <button class = "Scheduler">
+      Schedule for later
+    </button>
+
+  </body>
+</html>
