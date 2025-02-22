@@ -20,7 +20,7 @@ p {
 
 .video-author {
   font-size: 14px;
-  color: rgb(96, 96, 96);
+  color: #606060;
   margin-bottom: 20px;
 }
 
@@ -57,3 +57,4 @@ p {
 .shop-link:hover {
   text-decoration: underline;
 }
+
